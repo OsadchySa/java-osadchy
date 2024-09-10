@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e23399aa-a8bd-4395-a9f8-6330857ac553" name="Changes" comment="hw 2 start">
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Applicant/Applicant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Applicant/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Applicant/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Applicant/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Applicant/Skill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/PC/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/PC/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/PC/Pc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/PC/TypeOfLaptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Papyrus/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Papyrus/Comics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Papyrus/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Papyrus/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Papyrus/Papyrus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/User/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/User/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/User/Geo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/User/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/User/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Comment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Post.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TypesDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" />
-    </list>
+    <list default="true" id="e23399aa-a8bd-4395-a9f8-6330857ac553" name="Changes" comment="hw 2 finished" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1725694082361</updated>
       <workItem from="1725694083426" duration="12770000" />
-      <workItem from="1725973253816" duration="14672000" />
+      <workItem from="1725973253816" duration="14987000" />
     </task>
     <task id="LOCAL-00001" summary="hw 1">
       <option name="closed" value="true" />
@@ -196,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725973175555</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hw 2 finished">
+      <option name="closed" value="true" />
+      <created>1726000400333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726000400333</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +195,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hw 1" />
     <MESSAGE value="hw 2 start" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 2 start" />
+    <MESSAGE value="hw 2 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 2 finished" />
   </component>
 </project>

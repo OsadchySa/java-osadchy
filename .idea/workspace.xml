@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e23399aa-a8bd-4395-a9f8-6330857ac553" name="Changes" comment="hw 2 finished" />
+    <list default="true" id="e23399aa-a8bd-4395-a9f8-6330857ac553" name="Changes" comment="hw 3 all done">
+      <change afterPath="$PROJECT_DIR$/src/lesson4/task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson4/task1/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson4/task2/HashSet/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson4/task2/HashSet/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson4/task2/HashSet/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson4/task2/HashSet/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson4/task2/HashSet/Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson4/task2/TreeSet/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson4/task2/TreeSet/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson2/Applicant/Applicant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/Applicant/Applicant.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -49,6 +63,16 @@
     "Application.User.Main.executor": "Run",
     "Application.lesson2.Papyrus.Main.executor": "Run",
     "Application.lesson2.User.Main.executor": "Run",
+    "Application.lesson3.Main.executor": "Run",
+    "Application.lesson3.task1.Main.executor": "Run",
+    "Application.lesson3.task2.Main.executor": "Run",
+    "Application.lesson4.Main.executor": "Run",
+    "Application.lesson4.task2.HashSet.Main.executor": "Run",
+    "Application.lesson4.task2.Main.executor": "Run",
+    "Application.lesson4.task2.TreeSet.Main (1).executor": "Run",
+    "Application.lesson4.task2.TreeSet.Main (2).executor": "Run",
+    "Application.lesson4.task2.TreeSet.Main (3).executor": "Run",
+    "Application.lesson4.task2.TreeSet.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -69,27 +93,13 @@
       <recent name="C:\Users\admin\IdeaProjects\java-osadchy\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.Applicant.Main" />
-      <module name="java-osadchy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TypesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TypesDemo" />
-      <module name="java-osadchy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lesson2.PC.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.PC.Main" />
+  <component name="RunManager" selected="Application.lesson4.task2.TreeSet.Main (3)">
+    <configuration name="lesson4.task2.HashSet.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.task2.HashSet.Main" />
       <module name="java-osadchy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.PC.*" />
+          <option name="PATTERN" value="lesson4.task2.HashSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson2.Papyrus.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.Papyrus.Main" />
+    <configuration name="lesson4.task2.TreeSet.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.task2.TreeSet.Main" />
       <module name="java-osadchy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.Papyrus.*" />
+          <option name="PATTERN" value="lesson4.task2.TreeSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +120,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson2.User.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.User.Main" />
+    <configuration name="lesson4.task2.TreeSet.Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.task2.TreeSet.Main" />
       <module name="java-osadchy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.User.*" />
+          <option name="PATTERN" value="lesson4.task2.TreeSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson4.task2.TreeSet.Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.task2.TreeSet.Main" />
+      <module name="java-osadchy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson4.task2.TreeSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lesson4.task2.TreeSet.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.task2.TreeSet.Main" />
+      <module name="java-osadchy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson4.task2.TreeSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.lesson2.Papyrus.Main" />
-        <item itemvalue="Application.lesson2.User.Main" />
-        <item itemvalue="Application.lesson2.PC.Main" />
-        <item itemvalue="Application.TypesDemo" />
+        <item itemvalue="Application.lesson4.task2.TreeSet.Main (3)" />
+        <item itemvalue="Application.lesson4.task2.TreeSet.Main" />
+        <item itemvalue="Application.lesson4.task2.HashSet.Main" />
+        <item itemvalue="Application.lesson4.task2.TreeSet.Main (2)" />
+        <item itemvalue="Application.lesson4.task2.TreeSet.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +185,9 @@
       <option name="presentableId" value="Default" />
       <updated>1725694082361</updated>
       <workItem from="1725694083426" duration="12770000" />
-      <workItem from="1725973253816" duration="14987000" />
+      <workItem from="1725973253816" duration="15126000" />
+      <workItem from="1726140291222" duration="6414000" />
+      <workItem from="1726246401200" duration="14522000" />
     </task>
     <task id="LOCAL-00001" summary="hw 1">
       <option name="closed" value="true" />
@@ -175,7 +213,31 @@
       <option name="project" value="LOCAL" />
       <updated>1726000400333</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hw 2 fix">
+      <option name="closed" value="true" />
+      <created>1726000572364</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726000572364</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hw 3 half done">
+      <option name="closed" value="true" />
+      <created>1726145283612</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726145283612</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hw 3 all done">
+      <option name="closed" value="true" />
+      <created>1726147123431</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726147123431</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +258,9 @@
     <MESSAGE value="hw 1" />
     <MESSAGE value="hw 2 start" />
     <MESSAGE value="hw 2 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 2 finished" />
+    <MESSAGE value="hw 2 fix" />
+    <MESSAGE value="hw 3 half done" />
+    <MESSAGE value="hw 3 all done" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 3 all done" />
   </component>
 </project>

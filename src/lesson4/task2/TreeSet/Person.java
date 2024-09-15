@@ -1,9 +1,14 @@
-package lesson2.Applicant;
+package lesson4.task2.TreeSet;
+
+import lesson4.task2.HashSet.Car;
+import lesson4.task2.HashSet.Gender;
+import lesson4.task2.HashSet.Skill;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Applicant {
+
+public class Person {
     private int id;
     private String name;
     private String surname;
@@ -13,10 +18,14 @@ public class Applicant {
     private List<Skill> skills = new ArrayList<Skill>();
     private Car car;
 
-    public Applicant() {
+    public Person() {
     }
 
-    public Applicant(int id, String name, String surname, String email, int age, Gender gender, Car car) {
+
+
+
+
+    public Person(int id, String name, String surname, String email, int age, Gender gender, Car car) {
         this.id = id;
         this.name = name;
         this.surname = surname;
@@ -25,6 +34,7 @@ public class Applicant {
         this.gender = gender;
         this.car = car;
     }
+
 
     public int getId() {
         return id;
@@ -78,6 +88,10 @@ public class Applicant {
         return skills;
     }
 
+    public void setSkills(List<Skill> skills) {
+        this.skills = skills;
+    }
+
     public Car getCar() {
         return car;
     }
@@ -87,8 +101,10 @@ public class Applicant {
     }
 
     @Override
-    public String toString() {
-        return "Applicant{" +
+    public String
+
+    toString() {
+        return "Person{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", surname='" + surname + '\'' +

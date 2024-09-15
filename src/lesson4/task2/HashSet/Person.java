@@ -1,9 +1,10 @@
-package lesson2.Applicant;
+package lesson4.task2.HashSet;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
-public class Applicant {
+public class Person {
     private int id;
     private String name;
     private String surname;
@@ -13,10 +14,10 @@ public class Applicant {
     private List<Skill> skills = new ArrayList<Skill>();
     private Car car;
 
-    public Applicant() {
+    public Person() {
     }
 
-    public Applicant(int id, String name, String surname, String email, int age, Gender gender, Car car) {
+    public Person(int id, String name, String surname, String email, int age, Gender gender, Car car) {
         this.id = id;
         this.name = name;
         this.surname = surname;
@@ -25,6 +26,7 @@ public class Applicant {
         this.gender = gender;
         this.car = car;
     }
+
 
     public int getId() {
         return id;
@@ -78,6 +80,10 @@ public class Applicant {
         return skills;
     }
 
+    public void setSkills(List<Skill> skills) {
+        this.skills = skills;
+    }
+
     public Car getCar() {
         return car;
     }
@@ -87,8 +93,23 @@ public class Applicant {
     }
 
     @Override
-    public String toString() {
-        return "Applicant{" +
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return id == person.id && age == person.age && Objects.equals(name, person.name) && Objects.equals(surname, person.surname) && Objects.equals(email, person.email) && gender == person.gender && Objects.equals(skills, person.skills) && Objects.equals(car, person.car);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, surname, email, age, gender, skills, car);
+    }
+
+    @Override
+    public String
+
+    toString() {
+        return "Person{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", surname='" + surname + '\'' +

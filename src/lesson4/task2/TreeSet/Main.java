@@ -12,7 +12,7 @@ public class Main {
         TreeSet<Person> personsTreeSet = new TreeSet<>(new Comparator<Person>() {
             @Override
             public int compare(Person o1, Person o2) {
-                int result = Integer.compare(o2.getSkills().size(), o1.getSkills().size());
+                int result = Integer.compare(o1.getSkills().size(), o2.getSkills().size());
                 if (result == 0) {
                     return Integer.compare(o1.getId(), o2.getId());
                 }

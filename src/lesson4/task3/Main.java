@@ -20,7 +20,7 @@ public class Main {
         zooclub.addPetToMember(person2, pet3);
         System.out.println(zooclub);
 
-        zooclub.removePetFromMember(person1, pet1);
+        zooclub.removePetFromMember (person1, pet1);
         System.out.println(zooclub);
 
         zooclub.removeMember(person2);

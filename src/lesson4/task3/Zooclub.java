@@ -35,6 +35,9 @@ public class Zooclub {
         club.remove(person);
     }
 
+    public void RemovePet(Pet pet) {
+
+    }
 
 
     @Override

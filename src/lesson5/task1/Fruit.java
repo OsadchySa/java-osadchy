@@ -1,4 +1,4 @@
-package lesson5;
+package lesson5.task1;
 
 public class Fruit {
     String name;

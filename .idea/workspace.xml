@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e23399aa-a8bd-4395-a9f8-6330857ac553" name="Changes" comment="hw 5.1">
-      <change afterPath="$PROJECT_DIR$/src/lesson5/task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson5/task2/Number.java" afterDir="false" />
+    <list default="true" id="e23399aa-a8bd-4395-a9f8-6330857ac553" name="Changes" comment="hw 5.1; 5.2">
+      <change afterPath="$PROJECT_DIR$/src/lesson5/task3/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson5/task3/IncreasingExperience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson5/task3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson5/task3/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson5/task3/Upgrade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson5/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/task1/Fruit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson5/task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson5/task2/Number.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -91,13 +93,13 @@
       <recent name="C:\Users\admin\IdeaProjects\java-osadchy\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lesson5.task2.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.task2.TreeSet.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson5.task3.Main" />
       <module name="java-osadchy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.task2.TreeSet.*" />
+          <option name="PATTERN" value="lesson5.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.lesson5.task2.Main" />
         <item itemvalue="Application.lesson5.task1.Main" />
         <item itemvalue="Application.lesson4.task3.Main" />
         <item itemvalue="Application.lesson4.task2.TreeSet.Main" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +187,7 @@
       <workItem from="1725694083426" duration="12770000" />
       <workItem from="1725973253816" duration="15126000" />
       <workItem from="1726140291222" duration="6414000" />
-      <workItem from="1726246401200" duration="30796000" />
+      <workItem from="1726246401200" duration="37487000" />
     </task>
     <task id="LOCAL-00001" summary="hw 1">
       <option name="closed" value="true" />
@@ -275,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726599493785</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="hw 5.1; 5.2">
+      <option name="closed" value="true" />
+      <created>1726601439610</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726601439610</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +314,7 @@
     <MESSAGE value="hw 4 16.09" />
     <MESSAGE value="hw 4 17.09" />
     <MESSAGE value="hw 5.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 5.1" />
+    <MESSAGE value="hw 5.1; 5.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 5.1; 5.2" />
   </component>
 </project>

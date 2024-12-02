@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e23399aa-a8bd-4395-a9f8-6330857ac553" name="Changes" comment="hw 5.1; 5.2; 5.3">
-      <change afterPath="$PROJECT_DIR$/emails.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson6/Main.java" afterDir="false" />
+    <list default="true" id="e23399aa-a8bd-4395-a9f8-6330857ac553" name="Changes" comment="hw 6">
+      <change afterPath="$PROJECT_DIR$/src/lesson1/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson1/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson1/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson1/Post.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +23,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -54,6 +59,7 @@
     "Application.Papyrus.Main.executor": "Run",
     "Application.TypesDemo.executor": "Run",
     "Application.User.Main.executor": "Run",
+    "Application.lesson1.Main.executor": "Run",
     "Application.lesson2.Papyrus.Main.executor": "Run",
     "Application.lesson2.User.Main.executor": "Run",
     "Application.lesson3.Main.executor": "Run",
@@ -91,7 +97,7 @@
       <recent name="C:\Users\admin\IdeaProjects\java-osadchy\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lesson6.Main">
+  <component name="RunManager" selected="Application.lesson1.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson5.task3.Main" />
       <module name="java-osadchy" />
@@ -105,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson4.task3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.task3.Main" />
+    <configuration name="lesson1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson1.Main" />
       <module name="java-osadchy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.task3.*" />
+          <option name="PATTERN" value="lesson1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lesson1.Main" />
         <item itemvalue="Application.lesson6.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.lesson5.task2.Main" />
         <item itemvalue="Application.lesson5.task1.Main" />
-        <item itemvalue="Application.lesson4.task3.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +193,10 @@
       <workItem from="1726140291222" duration="6414000" />
       <workItem from="1726246401200" duration="37675000" />
       <workItem from="1726682027340" duration="74000" />
-      <workItem from="1726842418635" duration="1449000" />
+      <workItem from="1726842418635" duration="3868000" />
+      <workItem from="1733158884100" duration="834000" />
+      <workItem from="1733162220612" duration="21000" />
+      <workItem from="1733162266432" duration="9847000" />
     </task>
     <task id="LOCAL-00001" summary="hw 1">
       <option name="closed" value="true" />
@@ -293,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726608716556</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="hw 6">
+      <option name="closed" value="true" />
+      <created>1726844683754</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726844683754</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +341,7 @@
     <MESSAGE value="hw 5.1" />
     <MESSAGE value="hw 5.1; 5.2" />
     <MESSAGE value="hw 5.1; 5.2; 5.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw 5.1; 5.2; 5.3" />
+    <MESSAGE value="hw 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw 6" />
   </component>
 </project>
